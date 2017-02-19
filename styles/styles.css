@@ -1,0 +1,370 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font-size:17px; font-family:"Open Sans"; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font-size:17px; font-family:"Open Sans"; color:#000; text-decoration:none; }
+a:hover                        { text-decoration:underline; }
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-light-webfont.woff') format('woff'),
+         url('opensans-light-webfont.ttf') format('truetype'),
+         url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-semibold-webfont.woff') format('woff'),
+         url('opensans-semibold-webfont.ttf') format('truetype'),
+         url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrap{
+	width:1164px;
+	margin:0 auto;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header{
+	height:364px;
+	background:url(../images/header.jpg) no-repeat;
+	overflow:hidden;
+}
+.header ul{
+	text-align:center;
+	margin:35px 0 0 0;
+}
+.header ul li{
+	display:inline;
+	margin:0 9px 0 9px;
+}
+.header ul li a{
+	color:#8F8F8F;
+	font:15px "Myriad Pro";
+}
+.header ul li a:hover{
+	color:#fff;
+}
+.header ul li .active-link{
+	color:#fff;
+}
+
+/*----------------------------------------------------------------------------------*/
+.header2{
+	height:73px;
+	overflow:hidden;
+}
+.header2 .main-menu{
+	text-align:center;
+	margin:25px 0 0 0;
+}
+.header2 .main-menu li{
+	display:inline;
+	margin:0 9px 0 9px;
+}
+.header2 .main-menu li a{
+	color:#909090;
+	font:15px "Myriad Pro";
+}
+.header2 .main-menu li a:hover{
+	color:#000;
+}
+.header2 .main-menu li .active{
+	color:#000;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content{
+	float:left;
+	width:612px;
+	padding:0 45px 80px 96px;
+}
+.content h2{
+	font-size:32px;
+	font-weight:normal;
+	margin:0 0 10px 0;
+}
+.content .date{
+	color:#7F7F7F;
+	font-size:14px;
+	line-height:1.7;
+}
+.content p{
+	line-height:1.7;
+}
+.content p span{
+	color:#0083FF;
+}
+.content img{
+	margin:38px 0 50px 0;
+}
+.content .posts li{
+	border-bottom:1px solid #8E8E8E;
+	padding:60px 0 0 0;
+}
+.content .next-links{
+	overflow:hidden;
+	margin:132px 0 0 0;
+}
+.content .next-links li .old-link{
+	float:left;
+	padding:0 0 0 37px;
+	background:url(../images/arrow-left.png) left center no-repeat;
+}
+.content .next-links li .new-link{
+	float:right;
+	padding:0 37px 0 0;
+	background:url(../images/arrow-right.png) right center no-repeat;
+}
+.content .next-links li a{
+	font-size:37px;
+	color:#838383;
+}
+/*----------------------------------------------------------------------------------*/
+.content2{
+	overflow:hidden;
+	height:613px;
+	background-color:#EBEBEB;
+}
+.content2 h1{
+	color:#878787;
+	font:37px "Open Sans";
+	text-align:center;
+	margin:112px 0 0 0;
+}
+.content2 .big-social{
+	margin:83px 0 0 94px;
+}
+.content2 .big-social li{
+	float:left;
+	margin:0 42px 0 42px;
+}
+.content2 .big-social li .in-icon{
+	display:block;
+	width:231px;
+	height:231px;
+	background:url(../images/big-social.png) no-repeat;
+	background-position:0 0;
+}
+.content2 .big-social li .twitter-icon{
+	display:block;
+	width:231px;
+	height:231px;
+	background:url(../images/big-social.png) no-repeat;
+	background-position:-312px 0;
+}
+.content2 .big-social li .letter-icon{
+	display:block;
+	width:231px;
+	height:231px;
+	background:url(../images/big-social.png) no-repeat;
+	background-position:-626px 0;
+}
+/*----------------------------------------------------------------------------------*/
+.content3 .menu{
+	text-align:center;
+}
+.content3 .menu li{
+	display:inline;
+	margin:0 0 0 10px;
+}
+.content3 .menu li a{
+	color:#878787;
+	font-size:37px;
+}
+.content3 .menu li span{
+	color:#878787;
+	font-size:37px;
+}
+.content3 .portfolio{
+	overflow:hidden;
+}
+.content3 .portfolio li{
+	float:left;
+	margin:0 46px 0 46px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar{
+	overflow:hidden;
+	padding:29px 63px 80px 48px;
+	background-color:#F5F5F5;
+	height:1945px;
+}
+.sidebar div{
+	padding:33px 0 33px 0;
+	border-bottom:1px solid #DADADA;
+}
+.sidebar div h3,h4{
+	font-size:15px;
+	margin:0 0 6px 0;
+}
+.sidebar div p{
+	font-size:15px;
+	color:#5A5A5A;
+	line-height:1.7;
+}
+.sidebar div span{
+	display:block;
+	font-size:15px;
+	color:#5A5A5A;
+	margin:0 0 10px 0;
+}
+
+.sidebar .social-sbar{
+	margin:33px 0 0 0;
+	overflow:hidden;
+}
+.sidebar .social-sbar li{
+	float:left;
+	margin:0 7px 0 7px;
+}
+.sidebar .social-sbar .rss{
+	display:block;
+	width:31px;
+	height:30px;
+	background:url(../images/social-sbar.png) no-repeat;
+	background-position:0 0;
+}
+.sidebar .social-sbar .inn{
+	display:block;
+	width:31px;
+	height:30px;
+	background:url(../images/social-sbar.png) no-repeat;
+	background-position:-43px 0;
+}
+.sidebar .social-sbar .twit{
+	display:block;
+	width:31px;
+	height:30px;
+	background:url(../images/social-sbar.png) no-repeat;
+	background-position:-83px 0;
+}
+
+.sidebar div fieldset{
+	height:36px;
+	overflow:hidden;
+}
+.sidebar div input{
+	float:left;
+	border:none;
+	width:227px;
+	height:36px;
+}
+.sidebar div ul li a{
+	color:#5A5A5A;
+	font-size:15px;
+	line-height:1.7;
+}
+.sidebar .search-block fieldset{
+	height:80px;
+}
+.sidebar .search-block label{
+	font-size:15px;
+	font-weight:bold;
+	display:block;
+	margin:0 0 3px 0;
+}
+.sidebar div button{
+	width:36px;
+	height:36px;
+	border:none;
+	margin:0 0 0 -4px;
+}
+.sidebar div button:hover{
+	cursor:pointer;
+}
+.sidebar div .email{
+	background:url(../images/email-but.png)  no-repeat;
+}
+.sidebar div .search{
+	background:url(../images/search-but.png)  no-repeat;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+	overflow:hidden;
+}
+.footer .social{
+	text-align:right;
+	padding:38px 0 0 504px;
+	height:75px;
+	background-color:#00A1F5;
+	overflow:hidden;
+}
+.footer .social li{
+	float:left;
+	margin:0 7px 0 7px;
+}
+.footer .social li .in{
+	display:block;
+	width:43px;
+	height:43px;
+	background:url(../images/social-links.jpg) no-repeat;
+	background-position:0 0;
+}
+.footer .social li .twitter{
+	display:block;
+	width:43px;
+	height:43px;
+	background:url(../images/social-links.jpg) no-repeat;
+	background-position:-56px 0;
+}
+.footer .social li .letter{
+	display:block;
+	width:43px;
+	height:43px;
+	background:url(../images/social-links.jpg) no-repeat;
+	background-position:-112px 0;
+}
+.footer div{
+	height:74px;
+	background-color:#008CD5;
+	overflow:hidden;
+}
+.footer div span{
+	display:block;
+	padding:28px 0 0 71px;
+	color:#A4CCEC;
+}
+.footer div ul{
+	float:right;
+	margin:-26px 48px 0 0;
+}
+.footer div ul li{
+	float:left;
+	margin:0 22px 0 22px;
+}
+.footer div ul li a{
+	color:#A4CCEC;
+}
